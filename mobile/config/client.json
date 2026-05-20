@@ -1,19 +1,11 @@
 {
-  "appName": "FoodKing",
-  "slug": "foodking",
-  "primaryColor": "#ea580c",
-  "apiUrl": "https://api.example.com",
-  "features": {
-    "onlineOrdering": true,
-    "tableReservation": true,
-    "kitchenDisplay": false,
-    "deliveryTracking": false,
-    "loyaltyProgram": false
+  "appName": "anirban",
+  "slug": "anirban-hr9a2h",
+  "apiUrl": "https://anirban-hr9a2h.wonderos.in/api",
+  "branding": {
+    "companyName": "anirban",
+    "tagline": "",
+    "primaryColor": "#C0D738"
   },
-  "ios": {
-    "bundleIdentifier": "app.wonderos.foodking"
-  },
-  "android": {
-    "packageName": "app.wonderos.foodking"
-  }
+  "features": {}
 }
