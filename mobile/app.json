@@ -1,32 +1,32 @@
 {
   "expo": {
-    "name": "FeastFlow Restaurant",
-    "slug": "template-restaurant-mobile",
+    "name": "anirban",
+    "slug": "anirban-hr9a2h",
+    "scheme": "anirban-hr9a2h",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "restaurant",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#EA580C"
+      "backgroundColor": "#C0D738"
     },
-    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.wonderos.restaurant"
+      "bundleIdentifier": "app.wonderos.anirbanhr9a2h",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
     },
     "android": {
+      "package": "app.wonderos.anirbanhr9a2h",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#EA580C"
-      },
-      "package": "com.wonderos.restaurant"
+        "backgroundColor": "#C0D738"
+      }
     },
-    "plugins": ["expo-router", "expo-secure-store"],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "apiUrl": "https://anirban-hr9a2h.wonderos.in/api",
+      "appName": "anirban"
     }
   }
 }
